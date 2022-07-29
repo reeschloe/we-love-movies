@@ -4,6 +4,7 @@ Server API interface for storing and delivering movies, theaters, and reviews.
 Heroku deployment: [https://evening-ridge-22370.herokuapp.com/]
 
 ## Routes: 
+All get requests return JSON response. All post requests require application/json body, and return JSON response.
 1. /movies
   * GET /movies - lists all movies in database
   * GET /movies?is_showing=true - lists all movies currently showing in theaters
@@ -17,4 +18,8 @@ Heroku deployment: [https://evening-ridge-22370.herokuapp.com/]
   * GET /theaters - returns all theaters and the movies playing at each theater
   
 ## Built with:
-* Express, Knex, PostgreSQL, CORS 
+* Node.js
+** Express server framework
+** CORS
+* PostgreSQL database
+** Knex.js for query building

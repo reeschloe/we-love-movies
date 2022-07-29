@@ -4,7 +4,7 @@ Server API interface for storing and delivering movies, theaters, and reviews.
 Heroku deployment: [https://evening-ridge-22370.herokuapp.com/]
 
 ## Routes: 
-All get requests return JSON response. All post requests require application/json body, and return JSON response.
+All get requests return JSON response. Put request requires application/json body, and returns JSON response.
 1. /movies
   * GET /movies - lists all movies in database
   * GET /movies?is_showing=true - lists all movies currently showing in theaters

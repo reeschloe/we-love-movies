@@ -1,4 +1,5 @@
-We Love Movies Backend
+We Love Movies Server
+Server API interface for storing and delivering movies, theaters, and reviews.
 
 Heroku deployment: [https://evening-ridge-22370.herokuapp.com/]
 
@@ -15,3 +16,5 @@ Routes:
 3. /theaters
   * GET /theaters - returns all theaters and the movies playing at each theater
   
+Built with:
+* Express, Knex, PostgreSQL, CORS 

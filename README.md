@@ -23,3 +23,9 @@ All get requests return JSON response. Put request requires application/json bod
 ** CORS
 * PostgreSQL database
 ** Knex.js for query building
+
+## Installation
+
+1. Fork and clone this repository.
+1. Run `npm install` to install project dependencies.
+1. Run `npm start`.

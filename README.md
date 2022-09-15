@@ -1,7 +1,7 @@
 # We Love Movies Server
 Server API interface for storing and delivering movies, theaters, and reviews.
 
-Heroku deployment: [https://evening-ridge-22370.herokuapp.com/]
+Replit: [https://replit.com/@reeschloe/we-love-movies]
 
 ## Routes: 
 All get requests return JSON response. Put request requires application/json body, and returns JSON response.

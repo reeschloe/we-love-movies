@@ -18,11 +18,11 @@ All get requests return JSON response. Put request requires application/json bod
   * GET /theaters - returns all theaters and the movies playing at each theater
   
 ## Built with:
-* Node.js
-** Express server framework
-** CORS
-* PostgreSQL database
-** Knex.js for query building
+- Node.js
+- Express server framework
+- CORS
+- PostgreSQL database
+- Knex.js for query building
 
 ## Installation
 
